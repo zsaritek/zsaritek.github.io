@@ -110,10 +110,10 @@ export const ContactUs = () => {
             </address>
             <p>{contactConfig.description}</p>
           </Col>
-          <Col lg="7" className="d-flex align-items-center">
+          {/* <Col lg="7" className="d-flex align-items-center">
             <form onSubmit={handleSubmit} className="contact__form w-100">
               <Row>
-                <Col lg="6" className="form-group">
+                {/* <Col lg="6" className="form-group">
                   <input
                     className="form-control"
                     id="name"
@@ -124,8 +124,8 @@ export const ContactUs = () => {
                     required
                     onChange={handleChange}
                   />
-                </Col>
-                <Col lg="6" className="form-group">
+                </Col> 
+                 <Col lg="6" className="form-group">
                   <input
                     className="form-control rounded-0"
                     id="email"
@@ -136,9 +136,9 @@ export const ContactUs = () => {
                     required
                     onChange={handleChange}
                   />
-                </Col>
+                </Col> 
               </Row>
-              <textarea
+               <textarea
                 className="form-control rounded-0"
                 id="message"
                 name="message"
@@ -147,7 +147,7 @@ export const ContactUs = () => {
                 value={formData.message}
                 onChange={handleChange}
                 required
-              ></textarea>
+              ></textarea> 
               <br />
               <Row>
                 <Col lg="12" className="form-group">
@@ -157,7 +157,7 @@ export const ContactUs = () => {
                 </Col>
               </Row>
             </form>
-          </Col>
+          </Col> */}
         </Row>
       </Container>
       <div className={formData.loading ? "loading-bar" : "d-none"}></div>
