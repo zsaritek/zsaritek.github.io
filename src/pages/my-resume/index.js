@@ -40,15 +40,19 @@ export const MyResume = () => {
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
+        <Row>
+          <h2>Ready to dive into my professional journey? Download my CV with a click, and let's connect on a whole new level.</h2>
+        </Row>
+        <Row>
+          <div className="d-flex justify-content-center align-items-center" style={{ height: '50vh' }}>
+            <button onClick={handleClick} className="btn btn-light mb-2 mt-2 border border-dark ">Download My Resume</button>
+          </div>
+        </Row>
+        <Row>
+          <h2 className="d-flex justify-content-center align-items-center">Your curiosity is the key – unlock my story and explore the possibilities! </h2>
+        </Row>
       </Container>
 
-      <div>
-        <h2>Ready to dive into my professional journey? Download my CV with a click, and let's connect on a whole new level.</h2>
-        <div className="d-flex justify-content-center align-items-center" style={{ height: '50vh' }}>
-          <button onClick={handleClick} className="btn btn-light mb-2 mt-2 border border-dark ">Download My Resume</button>
-        </div>
-        <h2 className="d-flex justify-content-center align-items-center">Your curiosity is the key – unlock my story and explore the possibilities! </h2>
-      </div>
     </HelmetProvider>
   );
 };
