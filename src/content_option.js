@@ -1,164 +1,76 @@
-const logotext = "JOHN";
+const logotext = "ZS";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Zeynep SARITEKE",
+    description: "Welcome to my web development portfolio, where innovation meets functionality. As a graduate of a comprehensive full-stack web development bootcamp, I have honed my skills in both front-end and back-end technologies, creating seamless and dynamic digital experiences. Explore my projects to witness my passion for crafting efficient, user-centric solutions that push the boundaries of web development.",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I am Zeynep.",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "Passionate about pixels and code.",
+        second: "Crafting websites that dance with creativity.",
+        third: "Turning dreams into interactive digital reality.",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "Welcome to my web development portfolio, where innovation meets functionality. As a graduate of a comprehensive full-stack web development bootcamp, I have honed my skills in both front-end and back-end technologies, creating seamless and dynamic digital experiences. Explore my projects to witness my passion for crafting efficient, user-centric solutions that push the boundaries of web development.",
+    your_img_url: require('./assets/images/me_picture.JPG'),
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "About Me",
+    aboutme: "I've always sought out opportunities to expand my skill set and stay updated with emerging trends and technologies. With my drive for continuous improvement, combined with an analytical mindset and strong communication skills, I'm confident in my ability to excel in the dynamic role in IT field.",
 };
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
-    },
-];
+
+
 
 const skills = [{
-        name: "Python",
-        value: 90,
-    },
-    {
-        name: "Djano",
-        value: 85,
-    },
-    {
-        name: "Javascript",
-        value: 80,
-    },
-    {
-        name: "React",
-        value: 60,
-    },
-    {
-        name: "Jquery",
-        value: 85,
-    },
+    name: "React",
+    value: 90,
+},
+{
+    name: "NodeJS",
+    value: 85,
+},
+{
+    name: "CSS",
+    value: 80,
+},
+{
+    name: "Tailwind",
+    value: 80,
+},
+{
+    name: "HTML",
+    value: 80,
+},
+{
+    name: "Express",
+    value: 85,
+},
+{
+    name: "MongoDB",
+    value: 85,
+},
 ];
 
-const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-];
-
-const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
-    // creat an emailjs.com account 
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
+    YOUR_EMAIL: "zsaritek@gmail.com",
+    YOUR_FONE: "+31634038852",
+    description: "Let's connect! Whether you have a project in mind, a question, or just want to say hello, I'm all ears. Reach out and let's make something awesome together. Your ideas and inquiries are the fuel that keeps my creativity flowing. Looking forward to hearing from you. ",
     YOUR_SERVICE_ID: "service_id",
     YOUR_TEMPLATE_ID: "template_id",
     YOUR_USER_ID: "user_id",
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
+    github: "https://github.com/zsaritek",
+    linkedin: "https://www.linkedin.com/in/zeynep-sariteke-73b9bb107/",
     twitter: "https://twitter.com",
 };
 export {
     meta,
     dataabout,
-    dataportfolio,
-    worktimeline,
     skills,
-    services,
     introdata,
     contactConfig,
     socialprofils,
