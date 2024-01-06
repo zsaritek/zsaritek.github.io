@@ -1,7 +1,8 @@
 
 import "./style.css";
+import React, { useState } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import { meta } from "../../content_option";
 
 export const MyResume = () => {
@@ -19,8 +20,14 @@ export const MyResume = () => {
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
-
       </Container>
+
+      <div>
+        <h2>Download PDF</h2>
+        <a href={process.env.PUBLIC_URL + '/files/cv.pdf'} download='cv.pdf'>
+          Download PDF
+        </a>
+      </div>
     </HelmetProvider>
   );
 };

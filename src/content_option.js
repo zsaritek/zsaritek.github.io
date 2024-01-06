@@ -20,6 +20,9 @@ const dataabout = {
     aboutme: "I've always sought out opportunities to expand my skill set and stay updated with emerging trends and technologies. With my drive for continuous improvement, combined with an analytical mindset and strong communication skills, I'm confident in my ability to excel in the dynamic role in IT field.",
 };
 
+// const cvConfig = {
+//     uploadPath: "./assets/cv", // Update with your desired upload path
+// };
 
 
 const skills = [{
@@ -74,5 +77,6 @@ export {
     introdata,
     contactConfig,
     socialprofils,
-    logotext,
+    logotext
+    // cvConfig,
 };
