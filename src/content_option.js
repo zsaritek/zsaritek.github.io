@@ -16,7 +16,7 @@ const introdata = {
 };
 
 const dataabout = {
-    title: "About Me",
+    // title: "About Me",
     aboutme: "I've always sought out opportunities to expand my skill set and stay updated with emerging trends and technologies. With my drive for continuous improvement, combined with an analytical mindset and strong communication skills, I'm confident in my ability to excel in the dynamic role in IT field.",
 };
 
@@ -58,7 +58,6 @@ const skills = [{
 
 const contactConfig = {
     YOUR_EMAIL: "zsaritek@gmail.com",
-    YOUR_FONE: "+31634038852",
     description: "Let's connect! Whether you have a project in mind, a question, or just want to say hello, I'm all ears. Reach out and let's make something awesome together. Your ideas and inquiries are the fuel that keeps my creativity flowing. Looking forward to hearing from you. ",
     YOUR_SERVICE_ID: "service_id",
     YOUR_TEMPLATE_ID: "template_id",
