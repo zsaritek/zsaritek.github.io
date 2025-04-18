@@ -26,6 +26,34 @@ const dataabout = {
 
 
 const skills = [{
+    name: "AI",
+    value: 70,
+},
+{
+    name: "AI Service Agent",
+    value: 70,
+},
+{
+    name: "Prompt Engineering",
+    value: 80,
+},
+{
+    name: "Python",
+    value: 60,
+},
+{
+    name: "Docker",
+    value: 45,
+},
+{
+    name: "JavaScript",
+    value: 85,
+},
+{
+    name: "TypeScript",
+    value: 70,
+},
+{
     name: "React",
     value: 90,
 },
